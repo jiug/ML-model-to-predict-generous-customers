@@ -51,7 +51,7 @@ The picture above shows the error distribution of the model. The bell shaped his
 This model predicts that the average increase in fare amount is of **$2.38 per mile** and **$0.23 per minute**.
 
 
-## Modeling and Evaluation
+## 4. Modeling and Evaluation
 
 Both Gradient descent (`XGBoost`) and Random Forest methods were trained for this project in order to find the best performing model. It should be noted that the time efficiency of the model highly depends on the hyperparameter tuning stage (using `GridSearchCV`).
 
@@ -74,7 +74,7 @@ One of the benefits of this tree based models is that one can take a look at the
 
 It's clear that there must be a difference that is not accounted for in the data.
 
-## Conclusion
+## 5. Conclusion
 
 It is possible to estimate the likelihood of a customer giving a substantial tip based on raw data related to the ride they are about to take. The model could be further improved by using more data, particularly data that informs about service quality and satisfaction. Other improvements could be the implementation of a customer database that keeps track of their tipping history.
 
